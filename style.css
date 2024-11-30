@@ -13,6 +13,22 @@
   align-items: center;
 }
 
+#scoreBox{
+  position: absolute;
+  top: 9px;
+  right: 200px;
+  font-size: 39px;
+  font-weight: bold;
+}
+
+#highscorebox{
+ position: absolute;
+  top: 49px;
+  right: 200px;
+  font-size: 39px;
+  font-weight: bold;
+
+}
 #board {
   background: linear-gradient(rgb(228, 235, 228), rgb(224, 224, 161));
 
@@ -25,11 +41,17 @@
 }
 
 .head {
-  background-color: red;
+  background:linear-gradient(red,yellow);
+   border: 2px solid rgb(16, 16, 16);
+   border-radius: 10px;
 }
-.snake{
-   background-color:purple
+.snake {
+  border: 0.25vmin solid white;
+  background-color: purple;
+  border-radius: 12px;
 }
 .food {
-  background-color: yellow;
+  border: 0.25vmin solid black;
+  border-radius: 18px;
+  background-color: rgb(51, 39, 222);
 }
